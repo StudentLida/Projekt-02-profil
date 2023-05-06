@@ -14,8 +14,88 @@ tlačítko facebook         #3b5998
 tlačítko twitter          #1da1f2
 */
 
-
 body {
   background-color: #bdc3c7;
+  color: white;
+}
+
+
+/******/
+
+.profil {
+  width: 300px;
+  margin: 50 px 0 0 50px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1,5;
+  color: whitesmoke;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif; 
+  font-size: 25px;
+  font-weight: 900px;
+}
+
+.obsah {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  background-color: #31363b;
+  padding: 20px 20px 20px 20px;
+  }
+
+.foto {
+  width: 100%;
+  display: block; 
+ }
+
+/*logo - pozicovani, rodic (hlavicka), potomek (logo)*/
+.hlavicka {
+  position: relative;
+  z-index: 5;
+}
+
+.logo {
+  position: absolute;
+  bottom: -15px;
+  right: 40px;
+  background-color: #b92e81;
+  border-radius: 50%;
+}
+
+.odkazy {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 15px;
+  border: 0.5px solid #3f464d;
+  width: 100%;
+}
+
+.odkazy li {
+  display: inline-block;
+ }
+
+.odkazy a {
+  text-decoration: none;  /*k odstranění podrtžení*/
+ }
+
+.facebook,
+.twitter {
+  width: 49%;  /*mezi prvky prostor, proto mi to nejde na 50%*/
+  text-align: center;
+  border: 0.5px solid #3f464d;
+  padding: 15px;
+ }
+
+.twitter {
+  background-color: #1da1f2;
 }
 
